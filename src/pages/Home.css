@@ -1,0 +1,16 @@
+.home-values {
+  background: var(--bg-section-alt);
+}
+.home-values__item {
+  padding: 1.5rem 1rem;
+}
+.home-values__item h4 {
+  color: var(--color-warm-brown);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.home-values__item p {
+  color: var(--color-deep-brown);
+  opacity: 0.8;
+  line-height: 1.7;
+}

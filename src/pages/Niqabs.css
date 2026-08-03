@@ -1,0 +1,32 @@
+.niqab-overview-card {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-soft);
+  border-radius: var(--radius-md);
+  padding: 1.3rem 1.4rem;
+  cursor: pointer;
+  transition: var(--transition-base);
+}
+.niqab-overview-card:hover {
+  border-color: var(--color-light-brown);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-soft);
+}
+.niqab-overview-card.is-active {
+  border-color: var(--color-warm-brown);
+  background: var(--color-cream);
+}
+.niqab-overview-card h4 {
+  color: var(--color-warm-brown);
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.niqab-overview-card p {
+  font-size: 0.88rem;
+  color: var(--color-deep-brown);
+  opacity: 0.8;
+  line-height: 1.6;
+  margin: 0;
+}

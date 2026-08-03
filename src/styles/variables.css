@@ -1,0 +1,39 @@
+/* =====================================================
+   حُرّة — Design Tokens
+   Soft, feminine, luxury palette. No dark/harsh colors.
+   ===================================================== */
+:root {
+  /* ---- Core palette ---- */
+  --color-white: #ffffff;
+  --color-ivory: #fbf7f0;
+  --color-cream: #f5ede1;
+  --color-beige: #e9dcc7;
+  --color-light-brown: #cba57e;
+  --color-warm-brown: #9c7350;
+  --color-deep-brown: #4a3728; /* main text color, warm near-black */
+
+  /* ---- Accent / signature ---- */
+  --color-gold: #b08d57; /* used sparingly: dividers, icons, active states */
+  --color-rose-dust: #d9c2b0; /* soft blush undertone for hovers */
+
+  /* ---- Surfaces ---- */
+  --bg-page: var(--color-ivory);
+  --bg-card: var(--color-white);
+  --bg-section-alt: var(--color-cream);
+  --border-soft: rgba(156, 115, 80, 0.18);
+
+  /* ---- Typography ---- */
+  --font-display: "Aref Ruqaa", serif; /* calligraphic, Islamic-art inspired */
+  --font-body: "Cairo", sans-serif; /* clean modern Arabic body font */
+
+  /* ---- Radii & shadows ---- */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 28px;
+  --shadow-soft: 0 10px 30px -12px rgba(74, 55, 40, 0.18);
+  --shadow-hover: 0 18px 40px -14px rgba(74, 55, 40, 0.28);
+
+  /* ---- Motion ---- */
+  --ease-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --transition-base: 0.35s var(--ease-soft);
+}
